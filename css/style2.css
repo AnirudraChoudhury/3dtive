@@ -1,0 +1,16 @@
+
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(../images/background-modern-computer-design.jpg);
+	height: 100%!important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.dupbg{
+	width: 250px;
+	height: 200px;
+	border-radius: 50%;
+}

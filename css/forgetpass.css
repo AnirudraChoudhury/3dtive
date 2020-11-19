@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Zilla Slab', serif;
+}
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/industry-2633878_1280.jpg);
+	height: 50%!important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.loginbg{
+	width: 130px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.loginback
+{
+	background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/texture-2150588_960_720.jpg);
+	height: 50%!important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}

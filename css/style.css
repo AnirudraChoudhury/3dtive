@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Zilla Slab', serif;
+}
+
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/bg25.jpg);
+	height: 100%!important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.aboutusbg{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg22.jpg);
+	height: 100%!important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg1{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg23.jpg);
+	height: 100%!important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.bg22{
+	background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/bg24.jpg);
+	height: 100%!important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.carousel-inner img 
+{
+      width: 100%;
+      height: 90vh;
+}
+
+.ai
+{
+	width: 100%;
+	height:250px!important;
+}
+
+.vbs
+{
+	width: 100%;
+	height:230px!important;
+}
+
+.gm
+{
+	width: 100%;
+	height:230px!important;
+}
+
+.ftbg{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg1.jpg);
+	height: auto;
+	width: auto;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.dbg12{
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/bg14.jpg);
+	height: 100%!important;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.indexback{
+width: 350px;
+height: 400px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/bg11.jpg);
+
+}
+
+.cc{
+	animation: colorchangeMECHATRONICS 1s infinite;
+}
+
+@keyframes colorchangeMECHATRONICS{
+	0%{color: red;}
+	25%{color: blue;}
+	50%{color: #bf55ec;}
+	100%{color: red;}
+}
+
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+
